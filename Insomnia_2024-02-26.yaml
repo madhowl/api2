@@ -1,0 +1,276 @@
+_type: export
+__export_format: 4
+__export_date: 2024-02-26T05:52:43.022Z
+__export_source: insomnia.desktop.app:v8.6.1
+resources:
+  - _id: req_1c6c7b03617e422d9349e0e2de4c3790
+    parentId: wrk_89a88618db9442a59a0123e7008b278d
+    modified: 1708912688400
+    created: 1708477527366
+    url: http://api2.test/api/user
+    name: User
+    description: ""
+    method: GET
+    body:
+      mimeType: application/json
+      text: ""
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/8.6.1
+        id: pair_9a90038484b3461c97d749942d48f91a
+        disabled: true
+    authentication:
+      type: bearer
+      token: 2|aNIThsUDSjU1bgHNmVP8C0XA9rmrTqqOZnebYzRtaaa19fa4
+      disabled: false
+      prefix: ""
+    metaSortKey: -1708477527366
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_89a88618db9442a59a0123e7008b278d
+    parentId: null
+    modified: 1708926693912
+    created: 1708477517228
+    name: api2.test
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: req_4adb62b36bac4e6e9a87be6bb2048ac1
+    parentId: wrk_89a88618db9442a59a0123e7008b278d
+    modified: 1708923404218
+    created: 1708923400952
+    url: http://api2.test/api/users
+    name: Users
+    description: ""
+    method: GET
+    body:
+      mimeType: application/json
+      text: ""
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/8.6.1
+        id: pair_9a90038484b3461c97d749942d48f91a
+        disabled: true
+    authentication:
+      type: bearer
+      token: 2|aNIThsUDSjU1bgHNmVP8C0XA9rmrTqqOZnebYzRtaaa19fa4
+      disabled: false
+      prefix: ""
+    metaSortKey: -1708477527341
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_311951e200b94f5fb44060e4a56ad9a8
+    parentId: wrk_89a88618db9442a59a0123e7008b278d
+    modified: 1708912471386
+    created: 1708912286100
+    url: http://api2.test/api/register
+    name: Register
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: ""
+    parameters:
+      - name: email
+        value: 12@1t.ru
+        id: pair_08b43d8a0f494bb89f328c000dbee9a4
+      - name: password
+        value: "15987412369"
+        id: pair_77ee41896e3447d597342d721a96775b
+      - name: name
+        value: lolik
+        id: pair_007f0da49d184ae7b35d806a17f8f7df
+      - name: password_confirmation
+        value: "15987412369"
+        id: pair_0e16d337d2d04b7fab0b2e31c4b50ab7
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/8.6.1
+        id: pair_9a90038484b3461c97d749942d48f91a
+        disabled: true
+    authentication:
+      type: bearer
+      token: HasApiTokens
+    metaSortKey: -1708477527316
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_530de697d4b34d03af5c58d5f2566422
+    parentId: wrk_89a88618db9442a59a0123e7008b278d
+    modified: 1708921210347
+    created: 1708912513317
+    url: http://api2.test/api/login
+    name: Login
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: ""
+    parameters:
+      - name: email
+        value: 12@1t.ru
+        id: pair_08b43d8a0f494bb89f328c000dbee9a4
+      - name: password
+        value: "15987412369"
+        id: pair_77ee41896e3447d597342d721a96775b
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/8.6.1
+        id: pair_9a90038484b3461c97d749942d48f91a
+        disabled: true
+    authentication:
+      type: bearer
+      token: HasApiTokens
+    metaSortKey: -1708477527266
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_0f5ef39b7578448eb08ef9249b90f6b9
+    parentId: wrk_89a88618db9442a59a0123e7008b278d
+    modified: 1708925199666
+    created: 1708921287621
+    url: http://api2.test/api/logout
+    name: Logout
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: ""
+    parameters:
+      - name: email
+        value: 1@1.ru
+        id: pair_08b43d8a0f494bb89f328c000dbee9a4
+      - name: password
+        value: rootroot
+        id: pair_77ee41896e3447d597342d721a96775b
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/8.6.1
+        id: pair_9a90038484b3461c97d749942d48f91a
+        disabled: true
+    authentication:
+      type: bearer
+      token: 5|bl051kjEPCYwARwI08lbo9fFkZS1TVOrt49vBZJZ410cc271
+    metaSortKey: -1708477527216
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_c22e3b8c98385262f3b8525e7d9c6a117984ccb4
+    parentId: wrk_89a88618db9442a59a0123e7008b278d
+    modified: 1708477517229
+    created: 1708477517229
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1708477517229
+    _type: environment
+  - _id: jar_c22e3b8c98385262f3b8525e7d9c6a117984ccb4
+    parentId: wrk_89a88618db9442a59a0123e7008b278d
+    modified: 1708925187307
+    created: 1708477517229
+    name: Default Jar
+    cookies:
+      - key: XSRF-TOKEN
+        value: eyJpdiI6InNienovQ0RmRzhiOUFiWk9VT1RudWc9PSIsInZhbHVlIjoibWZ3T0x0N3ZvTTVDK21BR1M3MDhLQUc3M3MyT2NoZWFLWTdyMzMzdG54RSs2Kzhub05iZmN6RTVYUU1tVk9pRVI0RjRSKzh5d2pyUHgwVmtqeUtteTJpY0JkeWp5TnRycS9BSEx4RStkU0plS0tJOVhVcFdSajIwN2g0RTdIVTYiLCJtYWMiOiI0ODY3MzNmOGU1Y2VjYWQ1NWQzZmNkZTdlZWYxZGEzYTFmNzA5Y2I1NzVhYWVmOWI1ZGM2ZGE5NTcwYTgzYTdmIiwidGFnIjoiIn0%3D
+        expires: 2024-02-21T03:11:52.000Z
+        maxAge: 7200
+        domain: lara.test
+        path: /
+        hostOnly: true
+        creation: 2024-02-21T01:06:51.966Z
+        lastAccessed: 2024-02-21T01:11:52.639Z
+        sameSite: lax
+        id: e5b0c6c3-dead-4b93-bf76-2828e8b752b5
+      - key: laravel_session
+        value: eyJpdiI6IlQ5YWc3VmloeVpuZDhWTk04T0N0blE9PSIsInZhbHVlIjoiVXowRzRtbzlEWUM3ZzNEZlcwd2haOGdsY1dDSUFIWXZpMjVZdXA5L1B2OGs1WVJJdTRrSTBCWG1Id0JIUTYyQkFuUDRvaGh5c1pkZGMvdDZKaGNuTkEwQlIrYW5jd3hZZUZnRWNIeTdkQW5oY0FxaFFqUXU5MzM4aFIveUZpMW4iLCJtYWMiOiI3NTQzZmM4ZTUwYjFiOGJjMDFjNGQyZTExYjFhODAzNTQ4NDNhNzgwY2MzMWQ4NDNmNDNkNTMxYTY0MDhkNzU3IiwidGFnIjoiIn0%3D
+        expires: 2024-02-21T03:11:52.000Z
+        maxAge: 7200
+        domain: lara.test
+        path: /
+        httpOnly: true
+        hostOnly: true
+        creation: 2024-02-21T01:06:51.967Z
+        lastAccessed: 2024-02-21T01:11:52.639Z
+        sameSite: lax
+        id: 1f19aa96-3471-4200-8137-b877ed8545df
+      - key: XSRF-TOKEN
+        value: eyJpdiI6ImJmek1GdXdhWGttNnpmSDdybnFTRUE9PSIsInZhbHVlIjoib3pVeGJaZGdJL0V4eFJHdU9HaU9BOU5URjg3bGJmSTB5dXNQbjVFR2xYOHlwSzY4RDdtTVRBemdobTMvY0dsUnNtQitwbHRUWlBmNzUvdEh1UGl2aGQ3OXhYNkkveER3VldUSjlyZTdFRUVqREQwSS9ETG1UcnRWNk9FbmY2QmsiLCJtYWMiOiJmMzE0MjMwZTAxOTEwYjRjMDM4YjYxMzkxMWRjNTE4MmViZGM5Y2U2ODI2ODFiZTM4OGMxMjZkNDI1NDgwYmI1IiwidGFnIjoiIn0%3D
+        expires: 2024-02-26T07:26:27.000Z
+        maxAge: 7200
+        domain: api2.test
+        path: /
+        hostOnly: true
+        creation: 2024-02-26T01:43:05.264Z
+        lastAccessed: 2024-02-26T05:26:27.307Z
+        sameSite: lax
+        id: 70a7f952-46f5-4a21-a564-7c61b2fd061d
+      - key: laravel_session
+        value: eyJpdiI6IlJNM0djMWNYdUkzYzMyRFdQNG50Q3c9PSIsInZhbHVlIjoidlo0aWx1OWkrR3E4Sml0dG5jZTVrWGc2ZitjK09RVWVlNkdoMVY3S1BXQ0tCdmJjVzVUVXdzM2ZmWjhLbUlHVDNnbFVzakZpT2tIR2VvcythMEQ3NjFQTEZlSFNOaHc0VHNGWTdzYUVPR0w3SEVVdmg4cnp6cjJ5TnFTbVp6R3ciLCJtYWMiOiIxZjQ0NmFiNmRlY2NmNzRjZjNmNzU4ZmIzNGNlMmU4ZTZmMjlmNzM5NzI5NWI5M2NiNmQ3YzAwMDQwYWZhNTY5IiwidGFnIjoiIn0%3D
+        expires: 2024-02-26T07:26:27.000Z
+        maxAge: 7200
+        domain: api2.test
+        path: /
+        httpOnly: true
+        hostOnly: true
+        creation: 2024-02-26T01:43:05.264Z
+        lastAccessed: 2024-02-26T05:26:27.307Z
+        sameSite: lax
+        id: b4ddc293-d455-422f-af41-efd6403165ee
+    _type: cookie_jar
+  - _id: env_685548dfab904805ae5a1850361a4f7c
+    parentId: env_c22e3b8c98385262f3b8525e7d9c6a117984ccb4
+    modified: 1708926672688
+    created: 1708926672688
+    name: New Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1708926672688
+    _type: environment
