@@ -10,6 +10,11 @@ use InfyOm\Generator\Utils\ResponseUtil;
  *   title="InfyOm Laravel Generator APIs",
  *   version="1.0.0"
  * )
+ * @OAS\SecurityScheme(
+ *      securityScheme="bearer_token",
+ *      type="http",
+ *      scheme="bearer"
+ * )
  * This class should be parent class for other API controllers
  * Class AppBaseController
  */

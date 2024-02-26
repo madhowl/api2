@@ -77,7 +77,7 @@ return [
 
         'api_controller'    => 'App\Http\Controllers\API',
 
-        'api_resource'      => 'App\Http\Resources\API',
+        'api_resource'      => 'App\Http\Resources',
 
         'request'           => 'App\Http\Requests',
 
